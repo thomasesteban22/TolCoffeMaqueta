@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(102, 128, 106) !important;
+}
+.carrouselConfig{
+    height: 80vh !important;
+}
+.headConfig{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding: 0 !important;
+    border-bottom: rgb(255, 241, 175) 15px solid;
+
+}
+.muestraConfig{
+    width: 33% !important;
+    height: 50% !important;
+}
+#nombreEmpresa{
+    color: rgb(204, 112, 75) ;
+    margin-left: 20px !important;
+    padding-top: 5px;
+    font-family: cursive !important;
+}
+li {
+    list-style-type: none;
+}
+
+.subLinks{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+
+}
+.subLinks li{
+    margin-right: 15%;
+
+}
+.colorNav{
+    background-color: rgb(255, 194, 134)
+
+}
+.subLinks li a{
+
+    color: rgb(204, 112, 75);
+    font-size: 20px;
+    font-family: cursive !important;
+}
+.bloque2{
+    width: 100%;
+    height: 35vh;
+}
+.bloque2 h1{
+    font-size: 35px;
+    font-family: cursive !important;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    color: rgb(255, 194, 134);
+}
+.bloque2 p{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color:rgb(255, 241, 175);
+
+
+}
+.bloque3{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(102, 128, 106);
+}
+
+.botonXContacto{
+    background-color: rgb(255, 194, 134) !important;
+}
+.botonContacto{
+    background-color: rgb(255, 241, 175) !important;
+    border: none !important;
+    color: rgb(255, 194, 134) !important;
+    font-family: cursive !important;
+    font-size: 18px !important;
+}
+.bloque4{
+    background-color: rgb(255, 241, 175);
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+.bloque4 h1{
+    font-size: 35px;
+    font-family: cursive !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.bloque4 h3{
+    font-size: 20px;
+    font-family: cursive !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: rgb(102, 128, 106);
+}
+.divsBloque3{
+    margin-top: 8%;
+    width: 33.3%;
+    height: 10vh;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+.divsBloque3 img{
+    height: 10vh;
+    width: 80%;
+}
+.divsBloque3 h6{
+    margin-top: 5px;
+    color: rgb(255, 194, 134);
+}
+.divsBloque3 p{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.divRedes{
+    height: 10vh;
+    display: flex;
+    padding-top: 100px;
+    width: 100% !important;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.bloque4 .divRedes img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 30px;
+    top:100px
+}
+.redesImg{
+    margin-top: 100px;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.redesImg img{
+    width: 50px;
+    height: 50px;
+    margin:70px;
+
+}
